@@ -1,9 +1,12 @@
 
 
-body {
+body
+
+ {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #000000;
   margin: 0;
+
 }
 
 html {
@@ -30,7 +33,7 @@ html {
   padding: 50px;
   text-align: center;
   background-color: #474e5d;
-  color: white;
+  color: #FFFFFF;
 }
 
 .container {
@@ -44,7 +47,7 @@ html {
 }
 
 .title {
-  color: grey;
+  color: #FFFFFF;
 }
 
 .button {
@@ -69,10 +72,6 @@ html {
     display: block;
   }
 }
-
-
-
-
 
 
 
@@ -122,7 +121,6 @@ h2 {
   text-align: center;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 1140px) {
   .column {
     width: 100%;
